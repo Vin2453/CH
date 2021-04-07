@@ -1,9 +1,4 @@
-game.Players.LocalPlayer.OnTeleport:Connect(function(state)
-	if state == Enum.TeleportState.Started then
-		syn.queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/Vin2453/CH/main/serverhop.lua'))
-	end
-end)
-
+syn.queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/Vin2453/CH/main/serverhop.lua'))
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
