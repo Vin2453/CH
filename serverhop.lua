@@ -1,6 +1,6 @@
 game.Players.LocalPlayer.OnTeleport:Connect(function(state)
 	if state == Enum.TeleportState.Started then
-		syn.queue_on_teleport(game:HttpGet('https://pastebin.com/raw/72GtkdEg'))
+		syn.queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/Vin2453/CH/main/serverhop.lua'))
 	end
 end)
 
